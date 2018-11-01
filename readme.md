@@ -10,7 +10,7 @@
 
   npm install
   node app.js || npm run dev
-  
+
 ```
 
 * 在本地浏览器中打开 client/index.html
