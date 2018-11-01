@@ -5,7 +5,7 @@
 ## 展示
 [github源码](https://github.com/buildlove/grap-map-tiles)
 
-[image](https://github.com/buildlove/grap-map-tiles/blob/master/images/image.png)
+![image](https://github.com/buildlove/grap-map-tiles/blob/master/images/image.png)
 
 ## 使用方法
 
