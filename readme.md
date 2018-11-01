@@ -2,6 +2,10 @@
 
 最近在进行 Arcgis 地图相关业务, 接入底图时后端没有设置必要参数导致瓦片缺失, 只能先写一套爬取在线地图做一个演示 demo, 现在问题已经解决。
 
+## 展示
+
+[image](https://github.com/buildlove/grap-map-tiles/blob/master/images/image.png)
+
 ## 使用方法
 
 * 启动服务
@@ -15,7 +19,7 @@
 
 * 在本地浏览器中打开 client/index.html
 
-* 在页面中滚动鼠标 leaflet 插件会去请求地图瓦片
+* 在页面中滚动鼠标
 
 ## 爬虫
 
