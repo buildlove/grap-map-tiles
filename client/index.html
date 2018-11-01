@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="./libs/leaflet.css"/>
+</head>
+<body class="tundra">
+  <div id="map" region="center"></div>
+  <script src="./libs/leaflet.js"></script>
+  <script type="text/javascript">
+    var map = L.map('map').setView([34.758631, 113.653325], 4);
+
+    // 官方地图服务
+    // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //     attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+    // }).addTo(map);
+
+    // 本地地图服务
+    L.tileLayer('http://localhost:3000/org/{z}/{x}/{y}.png').addTo(map);
+  </script>
+</body>
+</html>

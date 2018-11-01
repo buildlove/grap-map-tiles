@@ -1,0 +1,23 @@
+{
+  "name": "grap-map-tiles",
+  "version": "1.0.0",
+  "description": "Using node to crawl Arcgis map tiles as map static service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildlove/grap-map-tiles.git"
+  },
+  "author": "liyang<mkdiryang220@gamil.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildlove/grap-map-tiles/issues"
+  },
+  "homepage": "https://github.com/buildlove/grap-map-tiles",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
