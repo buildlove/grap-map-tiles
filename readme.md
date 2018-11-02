@@ -1,3 +1,7 @@
+
+![](https://img.shields.io/badge/build-passing-green.svg)
+
+
 # node 爬取瓦片制作自己的地图服务
 
 由于很多时候需要在封闭的环境下使用地图底图, 写了一个爬取在线地图瓦片作为静态地图服务器的简单程序, js 代码 180 行, html 不到 10行, 废话不多说直接 [github源码](https://github.com/buildlove/grap-map-tiles) 。
