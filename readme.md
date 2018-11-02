@@ -1,6 +1,6 @@
 # node 爬取在线瓦片制作地图服务器
 
-最近在进行 Arcgis 地图相关业务, 接入底图时 ArcMap 没有设置好参数导致瓦片缺失, 只能先写一套爬取在线地图做一个演示 demo。
+写了一套爬取在线地图瓦片作为静态地图服务器。
 
 ## 展示
 [github源码](https://github.com/buildlove/grap-map-tiles)
