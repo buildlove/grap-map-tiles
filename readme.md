@@ -1,15 +1,12 @@
-# node 爬取在线瓦片制作地图服务器
+# node 爬取瓦片制作自己的地图服务
 
-写了一套爬取在线地图瓦片作为静态地图服务器。
+由于很多时候需要在封闭的环境下使用地图底图, 写了一个爬取在线地图瓦片作为静态地图服务器的简单程序, js 代码 180 行, html 不到 10行, 废话不多说直接 [github源码](https://github.com/buildlove/grap-map-tiles) 。
 
-## 展示
-[github源码](https://github.com/buildlove/grap-map-tiles)
+#### 展示
 
 ![image](https://github.com/buildlove/grap-map-tiles/blob/master/images/image.png)
 
-## 使用方法
-
-* 启动服务
+#### 使用方法
 
 ```
 
@@ -20,9 +17,9 @@
 
 * 在本地浏览器中打开 client/index.html
 
-* 在页面中滚动鼠标
+* 在浏览器中滚动鼠标
 
-## 爬虫
+#### 爬虫
 
 > app.js
 
@@ -36,7 +33,7 @@
 
 * 服务端会每隔1秒检查数组内是否有链接 有则去下载。
 
-## 地图相关
+#### 地图相关
 
 * Arcgis 官方使用插件 dojo.js 来接入地图底图。
 
