@@ -42,13 +42,13 @@ node 爬取瓦片制作自己的地图服务
 地图相关
 -----------------
 
-* Arcgis 官方使用插件 dojo.js 来接入地图底图。
+* Arcgis 官方使用插件 dojo.js 来接入地图底图, dojo.js 和 require.js 有冲突。
 
-* dojo.js 除了展示底图几乎一无是处, dojo.js 和 require.js 有冲突。
-
-* Arcgis 工具分为制作底图的客户端 ArcMap, 服务器 Arcgis Server。
-
-* leaflet 有相当多的接口和插件来制作地图工具。
+* Arcgis 工具分为制作底图的客户端 ArcMap, 图层服务器 Arcgis Server。
 
 * ArcMap 在发布服务时一定要设置好参数, 不然 leaflet 不能接入底图。
+
+* leaflet 有相当多的接口和插件来制作地图工具，由于leaflet没有自己的图层服务器，都是接入第三方图层，在一些场景下会有限制，比如地图旋转角度。
+
+
 
